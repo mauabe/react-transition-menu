@@ -2,25 +2,39 @@
   "name": "react-transition-menu",
   "version": "1.0.0",
   "description": "React project with animation",
-  "main": "index.js",
-  "dependencies": {
-    "classnames": "^2.2.6",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-transition-group": "^4.3.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mauabe/react-transition-menu.git"
-  },
   "author": "Mauricio Feldman-Abe",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mauabe/react-transition-menu/issues"
   },
-  "homepage": "https://github.com/mauabe/react-transition-menu#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauabe/react-transition-menu.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-jss": "^8.6.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.3.0",
+    "react-transition-group": "^2.4.0",
+    "styled-components": "^3.4.1",
+    "styled-transition-group": "^1.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "1.13.7",
+    "stylelint": "^9.4.0",
+    "stylelint-config-rational-order": "0.0.2",
+    "stylelint-config-recommended": "^2.1.0"
+  }
 }
